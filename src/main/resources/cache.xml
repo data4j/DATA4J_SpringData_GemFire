@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE cache PUBLIC "-//GemStone Systems, Inc.//GemFire Declarative Caching 6.0//EN" "http://www.gemstone.com/dtd/cache6_0.dtd">
+
+<cache>
+	<region name="root">
+		<region-attributes />
+		<region name="userRegion">
+			<region-attributes scope="distributed-no-ack" data-policy="replicate"/>
+		</region>
+	</region>
+</cache>
